@@ -1,0 +1,31 @@
+{
+  "name": "crawler-mercado-livre",
+  "version": "1.0.0",
+  "description": "Crawler para buscar produtos no Mercado Livre",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hiagodotjs/crawler-mercado-livre.git"
+  },
+  "author": "Hiago Machado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hiagodotjs/crawler-mercado-livre/issues"
+  },
+  "homepage": "https://github.com/hiagodotjs/crawler-mercado-livre#readme",
+  "devDependencies": {
+    "jest": "^25.5.4",
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
